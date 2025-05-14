@@ -1,11 +1,11 @@
 import React from "react";
-import "./Indicator.scss"
+import "./Indicator.scss";
 
-function Indicator({text, bg}) {
+function Indicator({ text, bg }) {
   return (
     <div>
       <div class="section-indicator">
-        <div class="line" style={{background:bg}}></div>
+        <div class="line" style={{ background: bg }}></div>
         <span>{text}</span>
       </div>
     </div>

@@ -2,6 +2,7 @@ import React from "react";
 import "./About.scss";
 import Indicator from "../indicator/Indicator";
 import { IoSettingsOutline } from "react-icons/io5";
+import Footer from "../footer/Footer";
 
 function About() {
   return (
@@ -64,6 +65,23 @@ function About() {
           </div>
         </div>
       </div>
+
+      <div class="parent companies-name-parent">
+        <div class="container companies-name-cont">
+          <Indicator text="lorem ipsum" />
+          <h3>Lorem, ipsum dolor.</h3>
+
+          <div class="imgaes">
+            <div class="box1 box"></div>
+            <div class="box2 box"></div>
+            <div class="box3 box"></div>
+            <div class="box4 box"></div>
+            <div class="box5 box"></div>
+          </div>
+        </div>
+      </div>
+
+      <Footer />
     </>
   );
 }
