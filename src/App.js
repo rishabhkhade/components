@@ -8,6 +8,7 @@ import ToDo from "./components/todo/ToDo";
 import Search from "./components/search/Search";
 import Contact from "./components/contact/Contact";
 import About from "./components/about/About";
+import Owner from "./components/owner/Owner";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/todo" element={<ToDo />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
+          <Route path="/owner" element={<Owner />} />
         </Routes>
       </BrowserRouter>
     </div>

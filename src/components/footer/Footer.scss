@@ -1,32 +1,36 @@
 .footer-parent {
-  margin: 50px 50px;
+  margin: 50px 0px;
+  background: grey;
   .footer-cont {
     display: flex;
     gap: 10px;
+    padding: 30px 0px;
     .logo {
-      width: 20%;
-      background: red;
+      width: 30%;
       display: flex;
       flex-direction: column;
       gap: 20px;
     }
-    .imp-links {
-      width: 30%;
-      background: red;
+    .link-wrap {
       display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    .other-links {
-      background: red;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      width: 30%;
+      align-items: center;
+      gap: 120px;
+      width: 40%;
+      justify-content: center;
+
+      .imp-links {  
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .other-links {
+        display: flex;
+        flex-direction: column;
+        gap: 20px; 
+      }
     }
     .contact {
-      width: 20%;
-      background: red;
+      width: 30%;
       display: flex;
       flex-direction: column;
       gap: 20px;
@@ -37,6 +41,8 @@
       flex-direction: column;
       align-items: flex-start;
       justify-content: flex-start;
+      gap: 10px;
+
       a {
         text-decoration: none;
       }
@@ -51,6 +57,10 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          svg {
+            color: green;
+            font-size: 20px;
+          }
         }
       }
     }
