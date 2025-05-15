@@ -1,0 +1,32 @@
+.tabs {
+  margin-top: 50px;
+  .tabs-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+
+    .tab {
+      display: flex;
+      gap: 50px;
+
+      .btn {
+        cursor: pointer;
+        padding: 8px 16px;
+        margin: 4px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      
+        &.active {
+          background-color: #007bff;
+          color: white;
+        }
+      }
+      
+    }
+    .des {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

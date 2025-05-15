@@ -9,6 +9,8 @@ import Search from "./components/search/Search";
 import Contact from "./components/contact/Contact";
 import About from "./components/about/About";
 import Owner from "./components/owner/Owner";
+import Tabs from "./components/tabs/Tabs";
+import Services from "./components/servicess/Services";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/owner" element={<Owner />} />
+          <Route path="/tab" element={<Tabs />} />
+          <Route path="/service" element={<Services />} />
         </Routes>
       </BrowserRouter>
     </div>
