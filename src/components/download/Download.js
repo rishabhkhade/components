@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import Indicator from "../indicator/Indicator";
 
 function Download() {
   return (
@@ -25,6 +26,8 @@ function Download() {
 
       <div class="parent parent-project">
         <div class="cont cont-project">
+            <Indicator text="abhdy lsidsw" bg="green" />
+            <h3>Lorem, ipsum dolor.</h3>
           <div class="pro-card">
             <Swiper
               spaceBetween={30}
