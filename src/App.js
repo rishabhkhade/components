@@ -11,6 +11,7 @@ import About from "./components/about/About";
 import Owner from "./components/owner/Owner";
 import Tabs from "./components/tabs/Tabs";
 import Services from "./components/servicess/Services";
+import Download from "./components/download/Download";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/owner" element={<Owner />} />
           <Route path="/tab" element={<Tabs />} />
           <Route path="/service" element={<Services />} />
+          <Route path="/down" element={<Download />} />
         </Routes>
       </BrowserRouter>
     </div>
