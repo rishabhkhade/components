@@ -49,6 +49,7 @@ function Tabs() {
               nulla iure recusandae molestias earum magnam.
             </div>
           )}
+
           {tablet === 3 && (
             <div class="des">
               tab3 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
